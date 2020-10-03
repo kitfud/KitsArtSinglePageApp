@@ -4,7 +4,7 @@ import Footer from './FooterComponent'
 import Home from './HomeComponent'
 import Art from './ArtComponent'
 
-import {Switch,Route,Redirect,withRouter}from 'react-router-dom'
+import {Switch,Route,Redirect}from 'react-router-dom'
 
 function Main (){
   return(
@@ -22,4 +22,4 @@ function Main (){
   )
 }
 
-export default withRouter(Main);
+export default (Main);

@@ -6,13 +6,13 @@ function Footer(){
   <footer>
   <div class="footerstyleleft">
     <p>
-     Created 2020 - KitsArt 
+     Created 2020 - Kit'sArt 
       </p>
   </div>
   
   <div class = "footerstyleright">
   <p>
- <a href="mailto:kitfuderich@gmail.com" class="contact">Contact Us</a>
+ <a href="mailto:kitfuderich@gmail.com" class="contact">Contact/Price Inquieries</a>
   </p>
      
   </div>

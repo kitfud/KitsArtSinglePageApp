@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Header(){
   return (
     <React.Fragment>
-  <div class = "headerText">Kits Art</div> 
+  <div class = "headerText">Kit's Art</div> 
       <nav class = "bar"> 
          <Link class = "button" to= '/home'>Home</Link>  
          <Link class="button" to = '/art'> Art</Link>   

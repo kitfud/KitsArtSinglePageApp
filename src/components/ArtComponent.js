@@ -11,32 +11,30 @@ function RenderPaintings(){
 )
 
 return <React.Fragment> 
-<table style = {tableStyle}>
- <tr>
-    <th>Title</th>
-    <th>Painting</th>
+<table>
+<tr>
+  <th>Title</th>
+  <th>Painting</th>
 </tr>
 {mypaintings}
-</table>   
+</table> 
 </React.Fragment>
 }
-
-
 
 function Art(){
 
   return (
- 
-     <React.Fragment>
-        <br/>
+    <React.Fragment>
+    <br/>
     <RenderPaintings/>
-    <Link to='/home'> Link to Home </Link>
+    <br/>
+    <Link style= {margin} to='/home'> <em>Click for Home</em> </Link>
     </React.Fragment>
   )
 }
 
-const tableStyle = {
-  width:"100%"
+const margin = {
+  marginLeft:"200px"
 }
 
 export default Art
